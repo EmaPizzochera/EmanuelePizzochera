@@ -143,3 +143,15 @@ footer.fixed-bottom {
     font-weight: 900;
     font-style: italic;
   }
+
+  /* Custom links */
+  .custom-link {
+    color: black; /* Default link color */
+    text-decoration: underline; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.custom-link:hover {
+    color: white; /* Change text color to white on hover */
+    background-color: black; /* Highlight the background in black */
+}
