@@ -1,6 +1,60 @@
+:root {
+    --global-bg-color: #ffffff;
+    --global-code-bg-color: rgba(54, 160, 181, 0.05);
+    --global-text-color: #000000;
+    --global-text-color-light: #828282;
+    --global-theme-color: #36a0b5;
+    --global-hover-color: #36a0b5;
+    --global-hover-text-color: #ffffff;
+    --global-footer-bg-color: #1C1C1D;
+    --global-footer-text-color: #e8e8e8;
+    --global-footer-link-color: #ffffff;
+    --global-distill-app-color: #828282;
+    --global-divider-color: rgba(0,0,0,.1);
+    --global-card-bg-color: #ffffff;
+    --global-tip-block: #42b983;
+    --global-tip-block-bg: #e2f5ec;
+    --global-tip-block-text: #215d42;
+    --global-tip-block-title: #359469;
+    --global-warning-block: #e7c000;
+    --global-warning-block-bg: #fff8d8;
+    --global-warning-block-text: #6b5900;
+    --global-warning-block-title: #b29400;
+    --global-danger-block: #c00;
+    --global-danger-block-bg: #ffe0e0;
+    --global-danger-block-text: #600;
+    --global-danger-block-title: #c00;
+  }
+
+
 body{
     margin: 0;
     background: gainsboro;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+footer.fixed-bottom {
+    background-color: var(--global-footer-bg-color);
+    font-size: 0.75rem;
+  }
+  footer.fixed-bottom .container {
+    color: var(--global-footer-text-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  footer.fixed-bottom a {
+    color: var(--global-footer-link-color);
+  }
+  footer.fixed-bottom a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+  
+  footer.sticky-bottom {
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 0.9rem;
+  }
+  
