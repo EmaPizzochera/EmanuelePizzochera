@@ -26,12 +26,20 @@
     --global-danger-block-title: #c00;
   }
 
-
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 body{
     margin: 0;
     background: gainsboro;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'abril-fatface-regular'; /* Use your custom font for h1 */
 }
 
 footer.fixed-bottom {
@@ -57,4 +65,19 @@ footer.fixed-bottom {
     padding-bottom: 40px;
     font-size: 0.9rem;
   }
-  
+
+  .icon {
+    display: inline-block;
+    width: 30px; /*Distance between icons*/
+    height: 30px;
+    font-size: 48px; /* Adjust the size according to your needs */
+    line-height: 10px; /* Center the icon vertically */
+    text-align: center; /* Center the icon horizontally */
+    color: #333; /* Adjust icon color */
+    margin: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for the jump effect */
+}
+
+.icon:hover {
+    transform: translateY(-10px); /* Move the icon 5 pixels upwards */
+}
