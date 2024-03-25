@@ -32,6 +32,9 @@
     font-style: normal;
 }
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     background: gainsboro;
     text-align: center;
@@ -42,9 +45,14 @@ h1 {
     font-family: 'Montserrat'; /* Use your custom font for h1 */
 }
 
+footer{
+  margin-top: auto;
+}
+
 footer.fixed-bottom {
     background-color: var(--global-footer-bg-color);
     font-size: 0.75rem;
+    font-family: 'Lato';
   }
   footer.fixed-bottom .container {
     color: var(--global-footer-text-color);
