@@ -76,9 +76,9 @@ footer.fixed-bottom {
 
   .icon {
     display: inline-block;
-    width: 30px; /*Distance between icons*/
+    width: 40px; /*Distance between icons*/
     height: 30px;
-    font-size: 48px; /* Adjust the size according to your needs */
+    font-size: 60px; /* Adjust the size according to your needs */
     line-height: 10px; /* Center the icon vertically */
     text-align: center; /* Center the icon horizontally */
     color: #333; /* Adjust icon color */
