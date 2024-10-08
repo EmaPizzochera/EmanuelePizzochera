@@ -196,9 +196,10 @@ footer.fixed-bottom {
 /* Flexbox container for the two columns */
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Ensure columns are side by side */
   align-items: flex-start;
   margin: 20px;
+  flex-wrap: nowrap; /* Ensure no wrapping of columns */
 }
 
 /* Styling for the left column (photo) */
