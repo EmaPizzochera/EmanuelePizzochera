@@ -192,3 +192,8 @@ footer.fixed-bottom {
   background-color: #04AA6D;
   color: white;
 }
+
+.main {
+  text-align: justify;
+  width: 70%;
+}
