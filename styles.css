@@ -26,6 +26,10 @@
     --global-danger-block-title: #c00;
   }
 
+p {
+  margin-left: 50px;
+}
+
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
@@ -43,6 +47,7 @@ body{
 
 h1 {
     font-family: 'Montserrat'; /* Use your custom font for h1 */
+    margin: 20px;
 }
 
 footer{
@@ -182,7 +187,7 @@ footer.fixed-bottom {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: green;
+  background-color: black;
   color: white;
   transition: color 0.5s ease;
 }
