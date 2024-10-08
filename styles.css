@@ -182,7 +182,7 @@ footer.fixed-bottom {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: black;
+  background-color: green;
   color: white;
   transition: color 0.5s ease;
 }
