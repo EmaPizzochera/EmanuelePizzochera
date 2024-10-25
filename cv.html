@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
 </head>
 <body>
-    <div class="topnav">
-        <a href="/emanuelepizzochera/index.html">Back</a>
-    </div>
+    <div id="topnav-placeholder"></div>
+<script>
+    fetch("topnav.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("topnav-placeholder").innerHTML = data);
+</script>
     <h1>Curriculum Vitae</h1>
     <div>
     <!--<a href="https://emapizzochera.github.io/emanuelepizzochera/assets/CV_Pizzochera.pdf" target="_blank">PDF.></a>-->

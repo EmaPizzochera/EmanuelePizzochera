@@ -10,12 +10,12 @@
    
   </head>
 <body>
-    <div class="topnav">
-      <a href="/emanuelepizzochera/cv.html">CV</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#research">Research</a>
-      <a href="/emanuelepizzochera/contact.html">Contacts</a>
-    </div>
+  <div id="topnav-placeholder"></div>
+  <script>
+      fetch("topnav.html")
+          .then(response => response.text())
+          .then(data => document.getElementById("topnav-placeholder").innerHTML = data);
+  </script>
 
     <div class="main">
     <h1>Emanuele Pizzochera</h1>
