@@ -217,8 +217,10 @@ footer.fixed-bottom {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
   color: gainsboro;
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Optional: control thickness of underline */
+  text-underline-offset: 4px;     /* Optional: control distance of underline from text */
 }
 
 .main {
