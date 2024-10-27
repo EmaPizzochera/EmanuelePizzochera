@@ -7,72 +7,11 @@
     <style>@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");</style> <!--Abril-->
     <style>@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");</style> <!--Lato-->
     <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style> <!--Montserrat-->
-   
-    <style>
-      /* Styles for the top bar */
-      .top-bar {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          background-color: gainsboro;
-          color: black;
-          padding: 10px 20px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          z-index: 1000; /* Keeps it on top of other content */
-      }
 
-      /* Left section for your name */
-      .top-bar .name {
-          font-family: 'Lato', sans-serif;
-          font-weight: 900;
-          font-size: 1.5em;
-      }
-
-      /* Right section for navigation links */
-      .top-bar .topnav {
-          display: flex;
-      }
-
-      .top-bar .topnav a {
-          color: black;
-          text-decoration: none;
-          padding: 10px;
-          font-family: 'Lato', sans-serif;
-          font-weight: 300;
-      }
-
-      .top-bar .topnav a:hover {
-        background-color: black;
-        color: gainsboro;
-        transition: color 0.5s ease;
-      }
-
-      /* Add padding to body to prevent content from hiding behind the fixed top bar */
-      body {
-          padding-top: 60px;
-      }
-  </style>
-</head>
 <body>
-
-   <!-- Top bar container -->
-   <div class="top-bar">
-    <!-- Name on the left -->
-    <div class="name">Emanuele Pizzochera</div>
-    
-    <!-- Navigation links on the right -->
-    <div class="topnav">
-        <a href="/emanuelepizzochera/index.html">Home</a>
-        <a href="/emanuelepizzochera/cv.html">CV</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#research">Research</a>
-        <a href="/emanuelepizzochera/contact.html">Contacts</a>
-    </div>
-</div>
-
+    <!-- Link to the topbar.js script -->
+    <script src="topbar.js"></script>
+    <!-- Main content -->
     <div class="main">
     <p>Welcome to my website! I'm a Finance PhD student at <a href='https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/' class="custom-link">Università Bocconi</a>, where I also worked under the <a href='https://igier.unibocconi.eu' class="custom-link">IGIER Institute</a> and Dept. of Finance.<br>
       I hold a Master's Degree in Economics and Econometrics at the University of Bologna (2023) and a Bachelor's Degree in Politics & Economics at the University of Milano (2021).</p>

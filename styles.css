@@ -227,3 +227,47 @@ footer.fixed-bottom {
   text-align: justify;
   width: 100%;
 }
+
+
+
+/* Styles for the top bar */
+.top-bar {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar .name {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 1.5em;
+}
+
+.top-bar .topnav {
+  display: flex;
+}
+
+.top-bar .topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-bar .topnav a:hover {
+  background-color: #555;
+}
+
+.top-bar .topnav a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+/* No padding-top needed as the bar will scroll with the page */
+body {
+  padding-top: 0;
+}
