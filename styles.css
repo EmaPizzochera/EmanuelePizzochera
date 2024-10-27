@@ -219,9 +219,23 @@ footer.fixed-bottom {
 }
 
 .main {
+  display: flex;
   text-align: justify;
-  max-width: 800px;
-  margin-left: -20px;
+  max-width: 1200px;
+  margin-left: 0 auto;
+  padding: 20px;
+}
+
+/* Content area (text) */
+.content {
+  flex: 1;                    /* Allow content to take up remaining space */
+  margin-right: 50px;         /* Space between text and profile photo */
+}
+
+/* Profile photo styles */
+.profile-photo img {
+  height: auto;               /* Maintain aspect ratio */
+  width: 400px;
 }
 
 /* Styles for the top bar */
