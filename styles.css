@@ -26,8 +26,19 @@
     --global-danger-block-title: #c00;
   }
 
+@font-face {
+  font-family: 'Encore Sans Pro Bold';
+  src: url('/Users/emanuelefrancescopizzochera/Desktop/Website/emanuelepizzochera/fonts/pf-encore-sans-pro/fonts/pf-encore-sans-pro/PFEncoreSansPro-Bold.ttf') format('ttf');
+}
+
 p {
   margin-left: 50px;
+}
+
+.encore-sans-pro-bold {
+  font-family: "Encore Sans Pro Bold", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .abril-fatface-regular {
@@ -36,17 +47,22 @@ p {
     font-style: normal;
 }
 body{
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     background: gainsboro;
     text-align: center;
-    font-family: "Lato";
-}
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: large;
+  }
 
 h1 {
-    font-family: 'Montserrat'; /* Use your custom font for h1 */
+    font-family: 'Lato'; /* Use your custom font for h1 */
+    font-weight: 900;
+    font-style: normal;
     margin: 50px;
 }
 
