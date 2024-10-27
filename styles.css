@@ -1,17 +1,17 @@
 :root {
-    --global-bg-color: #f9f6ee;
+    --global-bg-color: #f7efee;
     --global-code-bg-color: rgba(54, 160, 181, 0.05);
     --global-text-color: #000000;
     --global-text-color-light: #828282;
     --global-theme-color: #36a0b5;
     --global-hover-color: #36a0b5;
-    --global-hover-text-color: #fcf5e5;
+    --global-hover-text-color: #f7efee;
     --global-footer-bg-color: #1C1C1D;
     --global-footer-text-color: #e8e8e8;
-    --global-footer-link-color: #f9f6ee;
+    --global-footer-link-color: #f7efee;
     --global-distill-app-color: #828282;
     --global-divider-color: rgba(0,0,0,.1);
-    --global-card-bg-color: #f9f6ee;
+    --global-card-bg-color: #f7efee;
     --global-tip-block: #42b983;
     --global-tip-block-bg: #e2f5ec;
     --global-tip-block-text: #215d42;
@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    background: #f9f6ee;
+    background: #f7efee;
     text-align: center;
     font-family: "Lato", sans-serif;
     font-weight: 900;
@@ -179,7 +179,7 @@ footer.fixed-bottom {
 }
 
 .custom-link:hover {
-    color: #f9f6ee; /* Change text color to white on hover */
+    color: #f7efee; /* Change text color to white on hover */
     background-color: black; /* Highlight the background in black */
 }
 
@@ -193,7 +193,7 @@ footer.fixed-bottom {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  background-color: #f9f6ee;
+  background-color: #f7efee;
   overflow: hidden;
 }
 
@@ -211,13 +211,13 @@ footer.fixed-bottom {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: black;
-  color: #f9f6ee;
+  color: #f7efee;
   transition: color 0.5s ease;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: #f9f6ee;
+  color: #f7efee;
   text-decoration: underline;
   text-decoration-thickness: 2px; /* Optional: control thickness of underline */
   text-underline-offset: 4px;     /* Optional: control distance of underline from text */
@@ -236,7 +236,7 @@ footer.fixed-bottom {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #f9f6ee;
+  background-color: #f7efee;
   color: black;
   padding: 10px 20px;
   display: flex;
@@ -267,7 +267,7 @@ footer.fixed-bottom {
 
 .top-bar .topnav a:hover {
   background-color: black;
-  color: #f9f6ee;
+  color: #f7efee;
   transition: color 0.5s ease;
 }
 
