@@ -208,12 +208,7 @@ footer.fixed-bottom {
   display: block;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: black;
-  color: #f7efee;
-  transition: color 0.5s ease;
-}
+
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -226,10 +221,8 @@ footer.fixed-bottom {
 .main {
   text-align: justify;
   max-width: 800px;
-  margin-left: 20px;
+  margin-left: -28px;
 }
-
-
 
 /* Styles for the top bar */
 .top-bar {
@@ -253,7 +246,9 @@ footer.fixed-bottom {
 }
 
 .top-bar .topnav {
-  display: fixed;
+  position: absolute;
+  display: flex;
+  margin-right: 30px;
 }
 
 .top-bar .topnav a {
@@ -264,7 +259,6 @@ footer.fixed-bottom {
   font-size: 17px;
   font-family: 'Lato';
   font-weight: 400;
-  display: block;
 }
 
 .top-bar .topnav a:hover {
@@ -281,4 +275,8 @@ footer.fixed-bottom {
 
 body {
   padding-top: 60px; /* Prevents content from hiding behind the fixed top bar */
+}
+
+* {
+  box-sizing: border-box;
 }
