@@ -1,5 +1,5 @@
 :root {
-    --global-bg-color: #fcf5e5;
+    --global-bg-color: #f9f6ee;
     --global-code-bg-color: rgba(54, 160, 181, 0.05);
     --global-text-color: #000000;
     --global-text-color-light: #828282;
@@ -8,10 +8,10 @@
     --global-hover-text-color: #fcf5e5;
     --global-footer-bg-color: #1C1C1D;
     --global-footer-text-color: #e8e8e8;
-    --global-footer-link-color: #fcf5e5;
+    --global-footer-link-color: #f9f6ee;
     --global-distill-app-color: #828282;
     --global-divider-color: rgba(0,0,0,.1);
-    --global-card-bg-color: #fcf5e5;
+    --global-card-bg-color: #f9f6ee;
     --global-tip-block: #42b983;
     --global-tip-block-bg: #e2f5ec;
     --global-tip-block-text: #215d42;
@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    background: #fcf5e5;
+    background: #f9f6ee;
     text-align: center;
     font-family: "Lato", sans-serif;
     font-weight: 900;
@@ -179,7 +179,7 @@ footer.fixed-bottom {
 }
 
 .custom-link:hover {
-    color: #fcf5e5; /* Change text color to white on hover */
+    color: #f9f6ee; /* Change text color to white on hover */
     background-color: black; /* Highlight the background in black */
 }
 
@@ -193,7 +193,7 @@ footer.fixed-bottom {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  background-color: #fcf5e5;
+  background-color: #f9f6ee;
   overflow: hidden;
 }
 
@@ -211,13 +211,13 @@ footer.fixed-bottom {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: black;
-  color: #fcf5e5;
+  color: #f9f6ee;
   transition: color 0.5s ease;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: #fcf5e5;
+  color: #f9f6ee;
   text-decoration: underline;
   text-decoration-thickness: 2px; /* Optional: control thickness of underline */
   text-underline-offset: 4px;     /* Optional: control distance of underline from text */
@@ -236,7 +236,7 @@ footer.fixed-bottom {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fcf5e5;
+  background-color: #f9f6ee;
   color: black;
   padding: 10px 20px;
   display: flex;
@@ -267,7 +267,7 @@ footer.fixed-bottom {
 
 .top-bar .topnav a:hover {
   background-color: black;
-  color: #fcf5e5;
+  color: #f9f6ee;
   transition: color 0.5s ease;
 }
 
