@@ -1,17 +1,17 @@
 :root {
-    --global-bg-color: #ffffff;
+    --global-bg-color: #fcf5e5;
     --global-code-bg-color: rgba(54, 160, 181, 0.05);
     --global-text-color: #000000;
     --global-text-color-light: #828282;
     --global-theme-color: #36a0b5;
     --global-hover-color: #36a0b5;
-    --global-hover-text-color: #ffffff;
+    --global-hover-text-color: #fcf5e5;
     --global-footer-bg-color: #1C1C1D;
     --global-footer-text-color: #e8e8e8;
-    --global-footer-link-color: #ffffff;
+    --global-footer-link-color: #fcf5e5;
     --global-distill-app-color: #828282;
     --global-divider-color: rgba(0,0,0,.1);
-    --global-card-bg-color: #ffffff;
+    --global-card-bg-color: #fcf5e5;
     --global-tip-block: #42b983;
     --global-tip-block-bg: #e2f5ec;
     --global-tip-block-text: #215d42;
@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    background: gainsboro;
+    background: #fcf5e5;
     text-align: center;
     font-family: "Lato", sans-serif;
     font-weight: 900;
@@ -179,7 +179,7 @@ footer.fixed-bottom {
 }
 
 .custom-link:hover {
-    color: white; /* Change text color to white on hover */
+    color: #fcf5e5; /* Change text color to white on hover */
     background-color: black; /* Highlight the background in black */
 }
 
@@ -193,7 +193,7 @@ footer.fixed-bottom {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  background-color: gainsboro;
+  background-color: #fcf5e5;
   overflow: hidden;
 }
 
@@ -211,13 +211,13 @@ footer.fixed-bottom {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: black;
-  color: gainsboro;
+  color: #fcf5e5;
   transition: color 0.5s ease;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: gainsboro;
+  color: #fcf5e5;
   text-decoration: underline;
   text-decoration-thickness: 2px; /* Optional: control thickness of underline */
   text-underline-offset: 4px;     /* Optional: control distance of underline from text */
@@ -232,33 +232,43 @@ footer.fixed-bottom {
 
 /* Styles for the top bar */
 .top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: #333;
-  color: white;
+  background-color: #fcf5e5;
+  color: black;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .top-bar .name {
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
 }
 
 .top-bar .topnav {
-  display: flex;
+  display: fixed;
 }
 
 .top-bar .topnav a {
-  color: white;
+  float: left;
+  color: black;
+  padding: 10px 20px;
   text-decoration: none;
-  padding: 10px;
-  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-family: 'Lato';
+  font-weight: 400;
+  display: block;
 }
 
 .top-bar .topnav a:hover {
-  background-color: #555;
+  background-color: black;
+  color: #fcf5e5;
+  transition: color 0.5s ease;
 }
 
 .top-bar .topnav a.active {
@@ -267,7 +277,6 @@ footer.fixed-bottom {
   text-underline-offset: 4px;
 }
 
-/* No padding-top needed as the bar will scroll with the page */
 body {
-  padding-top: 0;
+  padding-top: 60px; /* Prevents content from hiding behind the fixed top bar */
 }
